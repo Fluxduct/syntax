@@ -1,4 +1,5 @@
 import sys
+import time
 
 # Console Speech
 def write(write):
@@ -10,3 +11,6 @@ def quit():
 def ver():
   write(sys.version)
   
+# Time
+def pause(pause):
+  time.sleep(pause)
