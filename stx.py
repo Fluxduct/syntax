@@ -2,6 +2,7 @@ import sys as flx
 import sys
 import time
 import math as maths
+import math
 
 # Console Speech
 def write(write):
