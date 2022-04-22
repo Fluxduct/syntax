@@ -3,6 +3,8 @@ import sys
 import time
 import math as maths
 import math
+from termcolor import colored as coloured
+from termcolor import colored
 
 # Console Speech
 def write(write):
