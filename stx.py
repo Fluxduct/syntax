@@ -31,5 +31,5 @@ def square(square):
 def cube(cube):
   return cube*cube*cube
 def sqrt(sq):
-  return sq / sq
+  return maths.sqrt(sq)
     
