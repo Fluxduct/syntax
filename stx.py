@@ -6,17 +6,30 @@ import math
 from termcolor import colored as coloured
 from termcolor import colored
 
-# Console Speech
-def write(write):
-  print(write)
+# Log
+
+# def log(entry):
+#   iswip=true
+
+# Console 
+def console(concom, coninput1):
+  if concom == "write":
+    print(coninput1)
+  elif concom == "return":
+    return coninput1
   
 # System
-def quit():
-  sys.exit()
-def ver():
-  return sys.version
+def flx(syscom):
+  if syscom == "quit":
+    sys.exit()
   
 # Time
+def time(timecom, timeinput1):
+  if timecom == "wait":
+    time.sleep(timeinput1)
+#  elif timecom == "epoch":
+#    console("return", time.time())
+  
 def pause(pause):
   time.sleep(pause)
 def epoch():
@@ -24,6 +37,7 @@ def epoch():
     
   
 # Mathematics
+# def mathematics(mathscom, val1, op, val2):
 def triangle(triangle):
   return triangle*(triangle+1)/2
 def square(square):
