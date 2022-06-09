@@ -9,7 +9,8 @@ from termcolor import colored
 # Log
 
 # def log(entry):
-#   iswip=true
+#   if proj == True:
+#     logbook = proj
 
 # Console 
 def console(concom, coninput1):
@@ -34,7 +35,12 @@ def pause(pause):
   time.sleep(pause)
 def epoch():
   return time.time()
-    
+
+# Artificial Intelligence BANK
+# def bank(aicom, aibook, aiinput1):
+#   if aicom == "enable":
+#     bank=True
+#   if aicom == "add":
   
 # Mathematics
 # def mathematics(mathscom, val1, op, val2):
